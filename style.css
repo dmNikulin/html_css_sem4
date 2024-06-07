@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    scroll-behavior: smooth;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+}
+
+.header {
+    padding: 39px 0;
+    margin-bottom: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mainMenu a {
+    padding: 10px;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.mainMenu a:hover {
+    color: #F25822;
+}
+
+.mainMenu {
+    gap: 14px;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainContent__leftSide {
+    max-width: 556px;
+}
+
+.mainContent p {
+    color: #888;
+    font-size: 20px;
+    font-weight: regular;
+    margin-bottom: 32px;
+}
+
+.mainContent__leftSide-btnList {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.mainContent button {
+    background-color: #F25822;
+    padding: 16px 32px;
+    border: 2px;
+    border-radius: 32px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mainContent button:hover {
+    background-color: blue;
+    border-width: 2px;
+    border-color: #F25822;
+}
+
+.videoBtn {
+    color: #AAAAAA;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logos {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 100px 0px;
+}
